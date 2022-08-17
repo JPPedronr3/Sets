@@ -1,3 +1,5 @@
+#Joao Pedro Aires de Siqueira
+#Basicamente, ele pega o arquivo txt, transforma ele em um vetor, apos isso, separa os conjuntos  em um subvetores, transformando em uma matriz, pois assim é mais facil de trabalhar, apos isso faz as operaçoes de acordo com a letra encontrada no arquivo txt, depois disso, printa elemento por elemento, para que ele fique na formataçao correta(entre chaves) 
 with open("file2.txt", "r") as arquivos:
     linhas = arquivos.readlines()
 vet = []
